@@ -1,0 +1,22 @@
+package com.practice.threadexample;
+
+public class ThreadPratice implements Runnable {
+
+	private int i;
+
+	public static void main(String[] args) {
+		ThreadPratice t = new ThreadPratice();
+		for (int j = 0; j < 7; j++) {
+			new Thread(t).start();
+		}
+
+	}
+
+	@Override
+	public void run() {
+		if (i % 5 != 0) {
+			System.out.println("Calling Run "+i);
+		}
+	}
+
+}

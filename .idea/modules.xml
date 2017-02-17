@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Assignments/Assignments.iml" filepath="$PROJECT_DIR$/Assignments/Assignments.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DiwaliExample/DiwaliExample.iml" filepath="$PROJECT_DIR$/DiwaliExample/DiwaliExample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EnumExample/EnumExample.iml" filepath="$PROJECT_DIR$/EnumExample/EnumExample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FirstGoogleWebProject/FirstGoogleWebProject.iml" filepath="$PROJECT_DIR$/FirstGoogleWebProject/FirstGoogleWebProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FirstRestWebService/FirstRestWebService.iml" filepath="$PROJECT_DIR$/FirstRestWebService/FirstRestWebService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JAXBExample/JAXBExample.iml" filepath="$PROJECT_DIR$/JAXBExample/JAXBExample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RemoteSystemsTempFiles/RemoteSystemsTempFiles.iml" filepath="$PROJECT_DIR$/RemoteSystemsTempFiles/RemoteSystemsTempFiles.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Servers/Servers.iml" filepath="$PROJECT_DIR$/Servers/Servers.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ServletExample/ServletExample.iml" filepath="$PROJECT_DIR$/ServletExample/ServletExample.iml" />
+    </modules>
+  </component>
+</project>

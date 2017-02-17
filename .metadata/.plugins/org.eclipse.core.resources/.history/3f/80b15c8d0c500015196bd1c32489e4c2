@@ -1,0 +1,21 @@
+package com.practice.threadexample;
+
+public class ThreadPratice implements Runnable {
+
+	public static void main(String[] args) {
+		ThreadPratice t1 = new ThreadPratice();
+		t1.run();
+		System.out.println(t1.getClass());
+
+
+	}
+
+	@Override
+	public void run() {
+		System.out.println("Calling Run");
+		int a = 5;
+		int b = 6;
+		System.out.println("Multiply " + a*b);
+	}
+
+}

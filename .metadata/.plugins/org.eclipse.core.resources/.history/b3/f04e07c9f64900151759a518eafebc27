@@ -1,0 +1,17 @@
+package com.practice.threadexample;
+
+public class ThreadPratice implements Runnable {
+
+	public static void main(String[] args) {
+		Thread t1 = new Thread();
+		t1.run();
+		t1.start();
+
+	}
+
+	@Override
+	public void run() {
+		System.out.println("Calling Run");
+	}
+
+}

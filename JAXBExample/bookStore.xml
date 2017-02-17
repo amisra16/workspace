@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:bookStore xmlns:ns2="www.google.com">
+    <StoreName>Books N Books</StoreName>
+    <Location>HazratGanj</Location>
+    <BookDetails>
+        <Book>
+            <name>AIC</name>
+            <writer>Mr Dharni</writer>
+            <ISBN>123456789</ISBN>
+            <publication>TMH</publication>
+        </Book>
+        <Book>
+            <name>DIC</name>
+            <writer>Mr RG Gupta</writer>
+            <ISBN>987654321</ISBN>
+            <publication>Pearson</publication>
+        </Book>
+    </BookDetails>
+</ns2:bookStore>

@@ -1,0 +1,6 @@
+1439845317789	Extract method 'checkOddEven'
+1439845554410	Convert local variable 'in' to field
+1439857584883	Move compilation unit
+1439865000039	Delete element
+1439867466307	Rename type 'ConstructorChaining'
+1439867519240	Rename type 'GrandParent'

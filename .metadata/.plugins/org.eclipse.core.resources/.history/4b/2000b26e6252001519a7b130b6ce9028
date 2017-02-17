@@ -1,0 +1,18 @@
+package com.practice.random;
+
+public class IntegerAutoBoxing {
+
+	public static void main(String[] args) {
+		Integer x = 30, y = 30;
+		matchValues(x,y);
+
+	}
+	
+	public void matchValues(Integer x, Integer y) {
+		if (x == y)
+			System.out.println("X "+x.hashCode()+ "is equal to Y" + y.hashCode());
+		else
+			System.out.println("X "+x.hashCode()+ "is not equal to Y" + y.hashCode());
+	}
+
+}

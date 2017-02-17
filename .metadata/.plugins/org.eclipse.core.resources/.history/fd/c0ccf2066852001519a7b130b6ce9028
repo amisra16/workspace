@@ -1,0 +1,29 @@
+package com.practice.random;
+
+public class IntegerAutoBoxing {
+
+	public static void main(String[] args) {
+		IntegerAutoBoxing integerAutoBoxing = new IntegerAutoBoxing();
+		Integer x = 40, y = 40;
+		integerAutoBoxing.matchIntegerValues(x, y);
+		Integer a = 400, b = 400;
+		integerAutoBoxing.matchIntegerValues(a, b);
+		Integer m = new Integer(40);
+		Integer n = new Integer(40);
+		integerAutoBoxing.matchIntegerValues(m, n);
+		
+		Boolean x1 = true, y1 = false;
+		
+
+	}
+
+	private void matchIntegerValues(Integer x, Integer y) {
+		if (x == y)
+			System.out.println("X " + x.hashCode() + " is equal to Y "
+					+ y.hashCode());
+		else
+			System.out.println("X " + x.hashCode() + " is not equal to Y "
+					+ y.hashCode());
+	}
+
+}
